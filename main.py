@@ -3,10 +3,10 @@ import threading
 import tweepy
 from time import sleep
 
-consumer_key = "9ccnYG7eb6iwILKRctdqC5Lma"
-consumer_secret = "lG0uIovSGaVyblaVrB2XrcsWXBWyOJ74aii5VlYF5YLdwx6G5u"
-access_token = "1344057502502150145-bujfPnvQaSQD4hO2PZfKydMznenzSY"
-access_token_secret = "YWwv9YjTsYRYjwIBKRUwbZhkyWYk0gzcuTru2gOSpoVHG"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
